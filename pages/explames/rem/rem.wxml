@@ -1,0 +1,10 @@
+<view>
+  <view class='warper_rpx'>
+  rpx: width:750rpx
+  </view>
+  <view class='warper_rem'>
+  rem: 750/20 --> width:37.5rem
+  </view>
+
+
+</view>

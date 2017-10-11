@@ -1,0 +1,24 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.theme_color {
+  color: #ce2222;
+}
+
+.ds_container {
+  display: block;
+}
+
+.icon {
+  width: 25rpx;
+  height: 25rpx;
+}

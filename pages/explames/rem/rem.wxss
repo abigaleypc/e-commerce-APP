@@ -1,0 +1,11 @@
+.warper_rpx {
+  width: 750rpx;
+  height: 3rem;
+  background: red;
+}
+
+.warper_rem {
+  width: 37.5rem;
+  height: 3rem;
+  background: rgb(195, 0, 255);
+}

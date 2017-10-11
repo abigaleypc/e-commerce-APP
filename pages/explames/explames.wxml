@@ -1,0 +1,6 @@
+<view class='ds_container'>
+  <view class="btn-area">
+    <navigator url="/pages/explames/tabs/tabs" hover-class="navigator-hover">Tabs</navigator>
+    <navigator url="/pages/explames/rem/rem" hover-class="navigator-hover">Tabs</navigator>
+  </view>
+</view>

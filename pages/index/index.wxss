@@ -1,0 +1,65 @@
+/**index.wxss**/
+
+button,
+input {
+  font-size: .8rem;
+}
+
+.ds_top {
+  display: flex;
+  justify-content: space-around;
+  height: 80rpx;
+  padding: 20rpx 0;
+  padding: 0 20rpx;
+  background: #d4f1f5;
+  color: white;
+  padding-bottom: 20rpx;
+}
+
+.ds_position {
+  width: 150rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.position_icon {
+  margin: 5rpx 0 0 10rpx;
+}
+
+.ds_search {
+  width: 550rpx;
+  margin: 0 30rpx;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center
+}
+
+.search_icon {
+  margin: 0 10rpx 0 0;
+}
+
+.ds_scan {
+  display: flex;
+  width: 70rpx;
+  align-items: center
+}
+
+.scan_icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.ds_banner {
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.slide-image {
+  width: 750rpx;
+  height: 300rpx;
+}
+
+@import '../../components/tabs/tabs.wxss'

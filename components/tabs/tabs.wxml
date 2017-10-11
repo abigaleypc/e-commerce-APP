@@ -1,0 +1,15 @@
+<template name="tabs">
+    <view class='ds_container'>
+        <scroll-view class='menu' scroll-x="true" bindscroll="scroll">
+            <view class='{{currentMenuIndex==index?"menu_item selected_menu":"menu_item"}}'
+            wx:key="{{index}}"
+            bindtap='onPressMemu'
+            wx:for='{{menus}}'
+            data-index="{{index}}"
+            data-item="{{item}}">
+            {{item}}
+            </view>
+            <view class='red_line' style='{{"margin-left:"+menusButtomLeft+"px"}}'></view>
+        </scroll-view>
+    </view>
+</template>

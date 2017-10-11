@@ -1,0 +1,20 @@
+<view class='ds_container'>
+  <!-- tab -->
+  <scroll-view class='menu'  scroll-x="true" bindscroll="scroll">
+    <view class='{{currentMenuIndex==index?"menu_item selected_menu":"menu_item"}}'
+    wx:key="{{index}}"
+    bindtap='onPressMemu'
+    wx:for='{{menus}}'
+    data-index="{{index}}">
+    {{item}}
+    </view>
+     <view class='red_line' style='{{"margin-left:"+menusButtomLeft+"px"}}'></view>
+  </scroll-view>
+  <view>
+  左偏移量： {{currentMenuIndex}}
+  </view>
+  <view>
+  索引： {{menusButtomLeft}}
+  </view>
+
+</view>

@@ -1,0 +1,46 @@
+
+<import src="../../components/tabs/tabs.wxml" />
+<import src="../../components/swiper/swiper.wxml" />
+
+
+<view class='ds_container'>
+  <!-- 位置 搜索框 扫描 -->
+  <view class='ds_top'>
+    <view class='ds_position'>
+      <a>北京</a>
+      <image src='../../assets/images/down.png'
+      class='icon position_icon'></image>
+    </view>
+
+    <view  class='ds_search'>
+      <image src='../../assets/images/search.png'
+      class='icon search_icon'></image>
+      <input maxlength="10" placeholder="输入你想要的" />
+    </view>
+
+    <view class='ds_scan'>
+      <image src='../../assets/images/scan_icon.png'
+      class='scan_icon'></image>
+      </view>
+  </view>
+
+  <!-- tab -->
+  <template is="tabs"
+    data="{{ menus, currentMenuIndex, menusButtomLeft }}">
+  </template>
+
+  <!-- swiper -->
+  <template is="swiper"
+    data="{{ imgUrls }}">
+  </template>
+
+
+    <view class='ds_content'>
+      <view class='header'>
+
+      </view>
+
+    </view>
+
+
+</view>

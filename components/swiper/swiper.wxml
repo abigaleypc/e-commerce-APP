@@ -1,0 +1,9 @@
+<template name="swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000"  class='ds_banner'>
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+</template>
